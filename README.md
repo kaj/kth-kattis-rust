@@ -12,3 +12,11 @@ Checklist code to show that the rust programming language is viable for Kattis c
 8. Some other RTE
 9. TLE (Time limit exceeded)
 10. AC solution to different (AC = Accepted)
+
+Each submission is a directory, to compile and run a submission, cd to
+that directory and run:
+
+    cargo run
+
+Before attempting to run 4-heap-overflow, it might be a good idea to
+set a smallish memory limit.

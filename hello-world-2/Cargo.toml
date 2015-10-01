@@ -1,0 +1,4 @@
+[package]
+name = "hello-world-2"
+version = "0.1.0"
+authors = ["Rasmus Kaj <kaj@kth.se>"]

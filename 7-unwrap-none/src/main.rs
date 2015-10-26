@@ -3,11 +3,12 @@ fn main() {
     // Both Option and Result has an unwrap() method which returns the
     // actual value, but it is a panic to unwrap() None or an error.
     let v = vec!(3, 5, 7);
-    let i = v.get(1).unwrap();
-    println!("i is {}", i);
     // Getting an out of bonds element is ok, but returns None.
     // Unwrapping None is a panic.
     let i = v.get(7).unwrap();
+    println!("i is {}", i);
+    // If the index is known to be within limts, unwrap is ok:
+    let i = v.get(1).unwrap();
     println!("i is {}", i);
 
     // Here is one proper way to do it:

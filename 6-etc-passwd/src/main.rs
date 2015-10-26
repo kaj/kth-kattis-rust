@@ -1,4 +1,4 @@
-use std::io::{BufReader, BufRead, Read, Result};
+use std::io::{BufReader, BufRead, Result};
 use std::fs::File;
 
 fn cat(filename: &str) -> Result<()> {
@@ -10,7 +10,7 @@ fn cat(filename: &str) -> Result<()> {
 }
 
 fn main() {
-    if let Err(e) = cat("/etc/passwdx") {
+    if let Err(e) = cat("/etc/passwd") {
         panic!("Error: {}", e);
     }
 }

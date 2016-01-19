@@ -34,6 +34,13 @@ Or, with optimization enabled:
 
     cargo build -q --release && ./target/release/submission < in > out && diff correct out
 
+Or, without cargo with optimization:
+
+    rustc src/main.rs --crate-type bin -C opt-level=3 && ./main < in > out && diff correct out
+
+Note that source files other than main.rs does not have to mentioned
+on the command line (or in Cargo.toml if cargo is used).
+
 The return code will be zero for a correct solution or non-zero
 incorrect solutions (compiler errors or incorrect output).  Any
 compiler errors / warnings or difference in output will be on standard

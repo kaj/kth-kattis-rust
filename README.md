@@ -1,5 +1,6 @@
 # kth-kattis-rust
-Checklist code to show that the rust programming language is viable for Kattis code checker at KTH.
+Checklist code to show that the rust programming language is viable
+for [the Kattis code checker](https://open.kattis.com/).
 
 ##  Submissions that do the following:
 1. Hello world

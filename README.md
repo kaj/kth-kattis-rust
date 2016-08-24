@@ -16,7 +16,7 @@ Checklist code to show that the rust programming language is viable for Kattis c
 Each submission is a directory, to compile and run a submission, cd to
 that directory and run:
 
-    cargo run
+    ../test.sh
 
 Before attempting to run 4-heap-overflow, it might be a good idea to
 set a smallish memory limit.

@@ -45,3 +45,7 @@ The return code will be zero for a correct solution or non-zero
 incorrect solutions (compiler errors or incorrect output).  Any
 compiler errors / warnings or difference in output will be on standard
 output.
+
+There is also a script, `test.sh`, that compiles, sets some limits,
+and executes a submission.
+It can be called from each subdirectory to get the expected results.

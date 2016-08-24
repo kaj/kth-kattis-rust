@@ -1,9 +1,9 @@
 
-fn foo(i: u8) -> u8 {
-    if i < 3 {
-        i * 2
+fn foo(a: u64) -> u64 {
+    if a < 3 {
+        a
     } else {
-        foo(i)
+        foo(a / 2) + foo(a + 1)
     }
 }
 

@@ -19,7 +19,7 @@ that directory and run:
     ../test.sh
 
 Before attempting to run 4-heap-overflow, it might be a good idea to
-set a smallish memory limit.
+set a smallish memory limit (which is done by the test script).
 
 ## Kattis-style testing
 

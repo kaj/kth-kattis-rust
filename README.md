@@ -8,7 +8,7 @@ Checklist code to show that the rust programming language is viable for Kattis c
 4. heap-based MLE (Memory Limit Exceeded)
 5. CE (Compile error)
 6. Try to open and print out /etc/passwd
-7. Any interesting RTEs that should be reported back specifically to the (RTE = Run Time Error) user as extrainfo
+7. Any interesting RTEs that should be reported back specifically to the (RTE = Run Time Error) user as extrainfo.  Three examples are given, they should probably all be reported simply as "program panicked" to the user.
 8. Some other RTE
 9. TLE (Time limit exceeded)
 10. AC solution to different (AC = Accepted)

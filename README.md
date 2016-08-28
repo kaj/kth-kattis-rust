@@ -14,7 +14,7 @@ for [the Kattis code checker](https://open.kattis.com/).
 9. TLE (Time limit exceeded)
 10. AC solution to different (AC = Accepted)
 
-# How submission are tested
+## How submission are tested
 
 Each subdirectory of this directory is a problem with one submission.
 The files in each such directory are:
@@ -49,6 +49,7 @@ The above mentioned `test.sh` works with raw rustc.
 Thus [the stadard library](https://doc.rust-lang.org/stable/std/) but
 no other librararies can be used by submissions.
 
+The Rust standard library is intentionally minimal.
 To make selected libraries (e.g. [regex](https://crates.io/crates/regex))
 availiable for use in submissions, a test script like `test-with-cargo.sh`
 can be used.

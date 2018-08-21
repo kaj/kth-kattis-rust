@@ -1,4 +1,3 @@
-
 fn main() {
     // The standard library (and other libraries) use a panic when
     // used in a cleaarly wrong way (most notably when unwrapping None

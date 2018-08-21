@@ -7,8 +7,8 @@ fn main() {
     let filename = "nosuchfile";
     let meta = fs::metadata(filename).unwrap();
     println!("File {} is {} bytes", filename, meta.len());
-    
-    // Here is a proper way to do it:
+
+    // Here is one proper way to do it:
     match fs::metadata(filename) {
         Ok(meta) => println!("File {} is {} bytes", filename, meta.len()),
         Err(err) => println!("Error looking at {}: {}", filename, err),

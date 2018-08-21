@@ -4,8 +4,8 @@ use std::collections::BTreeMap;
 /// before running this ...
 fn main() {
     let mut data = BTreeMap::new();
-    for i in 0..100000 {
-        data.insert(i, vec!(17; i));
+    for i in 0..100_000 {
+        data.insert(i, vec![17; i]);
     }
     println!("Ok!?!");
 }

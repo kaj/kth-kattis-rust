@@ -1,4 +1,3 @@
-
 fn foo(a: u64) -> u64 {
     if a < 3 {
         a

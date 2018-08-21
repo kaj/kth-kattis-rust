@@ -1,11 +1,11 @@
-use std::io::{BufReader, BufRead, Result};
 use std::fs::File;
+use std::io::{BufRead, BufReader, Result};
 
 fn cat(filename: &str) -> Result<()> {
     let reader = BufReader::new(try!(File::open(filename)));
     for line in reader.lines() {
-        println!("{}", try!(line));
-    };
+        println!("{}", line?);
+    }
     Ok(())
 }
 

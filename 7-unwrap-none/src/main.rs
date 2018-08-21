@@ -2,7 +2,7 @@ fn main() {
     // Lots of functions return an Option<T> or Result<T,Err>
     // Both Option and Result has an unwrap() method which returns the
     // actual value, but it is a panic to unwrap() None or an error.
-    let v = vec!(3, 5, 7);
+    let v = vec![3, 5, 7];
     // Getting an out of bonds element is ok, but returns None.
     // Unwrapping None is a panic.
     let i = v.get(7).unwrap();
